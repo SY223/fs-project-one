@@ -72,6 +72,12 @@ body {
     font-weight: 400;
 }
 
+.nav-actions a:focus-visible {
+    outline: 3px solid var(--text-color);
+    outline-offset: 4px;
+    border-radius: 10px;
+}
+
 .nav-actions a:first-child {
     color: var(--text-color);
     background-color: var(--white);
@@ -83,6 +89,17 @@ body {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+
+.nav-actions a:first-child:hover {
+    background-color: #543EE0;
+    color: white;
+}
+
+.nav-actions a:last-child:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+
 
 .nav-links a {
     color: var(--text-color);
